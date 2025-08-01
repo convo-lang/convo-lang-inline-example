@@ -1,8 +1,8 @@
 # convo-lang-inline-example
-Example of using the `convo` tagged template literal function to execute prompts async prompts inline with TypeScript
+Example of using the `convo` tagged template literal function to execute async prompts inline with TypeScript.
 
-The `convo` tagged template literal function is a very powerful function capable of converted a 
-template literal string into fully featured Convo-Lang script with embedded data types and functions.
+The `convo` tagged template literal function is a very powerful function capable of converting a 
+template literal string into fully featured [Convo-Lang](https://learn.convo-lang.ai/) script with embedded data types and functions.
 Functions passed into the template literal used the with `convo` function are able to be directly
 called by LLMs and agents and Zod schema can be used to return structured data.
 
@@ -19,6 +19,9 @@ npm run start
 ```
 
 ## Examples
+Syntax highlighting is provided by the [Convo-Lang VSCode extension](https://marketplace.visualstudio.com/items?itemName=IYIO.convo-lang-tools).
+
+Search "Convo-Lang" in the extensions panel to install
 
 ### Guess Planet Zod
 Guesses a planet based on a hint and return structured data based on Zod schema
