@@ -1,6 +1,8 @@
 # convo-lang-inline-example
 Example of using the `convo` tagged template literal function to execute async prompts inline with TypeScript.
 
+![planet-zod](https://raw.githubusercontent.com/convo-lang/convo-lang-inline-example/refs/heads/main/images/convo-inline.png)
+
 The `convo` tagged template literal function is a very powerful function capable of converting a 
 template literal string into fully featured [Convo-Lang](https://learn.convo-lang.ai/) script with embedded data types and functions.
 Functions passed into the template literal used the with `convo` function are able to be directly
