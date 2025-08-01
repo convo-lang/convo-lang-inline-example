@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "main": "ts-node src/main.ts"
+        "start": "ts-node src/main.ts"
     },
     "devDependencies": {
         "@types/node": "^24.1.0",
@@ -8,7 +8,7 @@
         "typescript": "^5.9.2"
     },
     "dependencies": {
-        "@convo-lang/convo-lang": "^0.7.39",
+        "@convo-lang/convo-lang": "^0.7.41",
         "@iyio/common": "^0.7.37",
         "@iyio/node-common": "^0.7.37",
         "dotenv": "^17.2.1",
