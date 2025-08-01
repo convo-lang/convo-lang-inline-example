@@ -1,4 +1,4 @@
-import { convoCompletionService, convoOpenAiModule } from "@convo-lang/convo-lang";
+import { convoOpenAiModule } from "@convo-lang/convo-lang";
 import { initRootScope } from "@iyio/common";
 import { readStdInLineAsync, stopReadingStdIn } from "@iyio/node-common";
 import { config } from 'dotenv';
@@ -14,10 +14,7 @@ initRootScope(reg=>{
 })
 
 const main=async ()=>{
-
-    convoCompletionService.all().forEach(s=>{
-        (s as any).logRequests=true;
-    })
+    
     let _continue=true;
     while(_continue){
 
